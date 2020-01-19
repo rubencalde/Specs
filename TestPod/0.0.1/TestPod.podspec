@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  
+
   spec.name         = "TestPod"
   spec.version      = "0.0.1"
   spec.summary      = "Pod to test dependencies."
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.platform     = :ios, "11.0"
 
-  spec.source       = { :git => "https://github.com/rubencalde/TestPod.git", :branch => "test_0.0.2" }
+  spec.source       = { :git => "https://github.com/rubencalde/TestPod.git", :branch => "master" }
   spec.source_files  = "TestPod", "TestPod/**/*.{h,m,swift}"
 
 end
